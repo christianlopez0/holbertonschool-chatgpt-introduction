@@ -1,5 +1,5 @@
 class Minesweeper:
-    def __init__(self, width=10, height=10, mines=10):
+    def __init__ (self, width=10, height=10, mines=10):
         self.width = width
         self.height = height
         self.total_cells = width * height
