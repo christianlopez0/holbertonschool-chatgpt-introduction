@@ -12,8 +12,6 @@ if len(sys.argv) != 2:
     print("Usage: python3 script_name.py <number>")
     sys.exit(1)
 
-try:
-    f = factorial(int(sys.argv[1]))
-    print(f)
-except ValueError:
-    print("Please provide a valid integer as input.")
+n = int(sys.argv[1])
+f = factorial(n)
+print(f)
